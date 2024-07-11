@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Editar Producto</h1>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                 <p>Ruta de la imagen: {{ producto.imagen }}</p>
+
+                <form method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="nombre">Nombre del Producto</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" value="{{ producto.nombre }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="precio">Precio</label>
+                        <input type="number" class="form-control" id="precio" name="precio" value="{{ producto.precio }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="descripcion">Descripción</label>
+                        <textarea class="form-control" id="descripcion" name="descripcion" required>{{ producto.descripcion }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="imagen">Imagen Actual</label><br>
+                        <img src="{{ url_for('uploaded_file', filename=producto.imagen) }}" alt="Descripción de la imagen">
+                        </td>
+                    </div>
+                    <div class="form-group">
+                        <label for="nueva_imagen">Adjuntar Nueva Imagen</label>
+                        <input type="file" class="form-control-file" id="nueva_imagen" name="imagen" accept="image/*">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
