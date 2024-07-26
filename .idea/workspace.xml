@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d617d1e7-b032-4639-bc07-c4b920e61d81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Ecomerce_sneakers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/agregar_producto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/carrito.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editar_producto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/panel_admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/productos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/201858-500-500.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/20190204_172229637_iOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/20190215_125136756_iOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/511533-500-500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/511543-500-500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/511623-500-500.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/Captura de pantalla 2024-04-23 071009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/Captura de pantalla 2024-04-23 093717.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/deadpool-logo-minimalista_3840x2160_xtrafondos.com.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/paginas-descargar-fondos-de-pantalla-1080x608.jpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploaded/pexels-dmitry-demidov-515774-3784221.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +44,7 @@
     "Python.app.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "vcs.Git"
